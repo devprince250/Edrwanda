@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Courses from './components/Courses';
 import About from './components/About';
 import Contact from './components/Contact';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import Product from './components/Products'; // Assuming you have a Product component
 import Teachers from './components/teachers';
 import Students from './components/students';
@@ -29,7 +29,6 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         {/* Add more routes as needed */}
-       
       </Routes>
       <Footer />
     </Router>
